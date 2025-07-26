@@ -72,9 +72,10 @@ social_media_image_flagger/
 ```bash
 pip install -r requirements.txt
 
-
-
 ---
+
+## 🚀 How to Run
+
 Developed by [Yostina Abera], inspired by real-world problems in content moderation and safety tech.
 
 Datasets used are publicly available and credited to their original creators (Facebook AI, Yahoo, etc.).
