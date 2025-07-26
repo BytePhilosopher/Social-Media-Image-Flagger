@@ -45,3 +45,41 @@ All images are resized, labeled, and stored in the `data/processed/` directory.
 
 ## 📁 Folder Structure
 
+social_media_image_flagger/
+│
+├── data/
+│ ├── raw/ # Original datasets
+│ └── processed/ # Cleaned and labeled
+│ ├── nsfw/
+│ ├── violence/
+│ ├── hate/
+│ └── normal/
+├── notebooks/ # EDA and model development
+├── src/ # Core scripts (train, evaluate, dataloader)
+├── models/ # Saved models (.pth)
+├── outputs/ # Logs, metrics, confusion matrices
+├── app/ # Streamlit app
+├── config.yaml # Image size, batch size, class names
+├── requirements.txt # Project dependencies
+└── README.md # You're here!
+
+
+---
+
+## 🚀 How to Run
+
+### 1. 📦 Install Dependencies
+```bash
+pip install -r requirements.txt
+
+
+
+---
+Developed by [Yostina Abera], inspired by real-world problems in content moderation and safety tech.
+
+Datasets used are publicly available and credited to their original creators (Facebook AI, Yahoo, etc.).
+
+
+---
+
+Let me know if you'd like a version customized with your name, GitHub link, or Ethiopian context (e.g., mentions of conflict monitoring, education filters, etc.).
